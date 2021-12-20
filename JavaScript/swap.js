@@ -3,7 +3,7 @@ function SwapII(str){
     var re= /[a-z]/;
     var re2= /[A-Z]/;
     var re3= /[0-9]/;
-    var re4= /[a-z]/i;
+    var re4= /[a-z]/i; 
     var arr=[];
     for(var i=0; i<str.length; i++){
         if(str.charAt(i).match(re)){
